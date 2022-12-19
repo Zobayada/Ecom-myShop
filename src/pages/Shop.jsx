@@ -1,9 +1,10 @@
 import React from 'react'
+import BreadCrumb from '../component/BreadCrumb'
 
 const Shop = () => {
     return (
         <div>
-            shop
+            <BreadCrumb name="Shop" />
         </div>
     )
 }

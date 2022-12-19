@@ -74,7 +74,7 @@ const Footer = () => {
                             <div className="footer__copyright">
                                 <div className="footer__copyright__text">
                                     <p>
-                                        Copyright &copy; {new Date().getFullYear()} All rights reserved | Designed <FaHeart /> by <a href="https://github.com/Zobayada" target="_blank" class="text-danger">Zobayada</a>
+                                        Copyright &copy; {new Date().getFullYear()} All rights reserved | Designed <FaHeart /> by <a href="https://github.com/Zobayada" target="_blank" className="text-danger">Zobayada</a>
                                     </p>
                                 </div>
                                 <div className="footer__copyright__payment">

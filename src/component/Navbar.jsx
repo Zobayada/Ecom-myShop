@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import { FaBars } from "react-icons/fa"
 
 const Navbar = () => {
     return (
@@ -25,7 +26,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <NavLink to="/">Pages</NavLink>
-                                    <ul class="header__menu__dropdown">
+                                    <ul className="header__menu__dropdown">
                                         <li><NavLink to="/shop-details">Shop Details</NavLink></li>
                                         <li><NavLink to="./cart">Shoping Cart</NavLink></li>
                                         <li><NavLink to="./checkout">Check Out</NavLink></li>
@@ -41,6 +42,9 @@ const Navbar = () => {
                             </ul>
                         </nav>
                     </div>
+                </div>
+                <div className="humberger__open">
+                    <FaBars />
                 </div>
             </div>
         </>

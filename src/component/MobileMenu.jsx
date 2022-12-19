@@ -1,8 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import { FaHome, FaListUl, FaShoppingBag, FaBell, FaUserPlus } from "react-icons/fa"
+import { FaHome, FaListUl, FaShoppingBag, FaBell, FaUserPlus } from "react-icons/fa";
+
 
 const MobileMenu = () => {
+
     return (
         <>
             <div className="menu-bottom fixed-bottom shadow-lg d-lg-none bg-white rounded-top">
@@ -14,7 +16,7 @@ const MobileMenu = () => {
                         </NavLink>
                     </div>
                     <div className="col">
-                        <NavLink className="humberger__open text-reset d-block text-center pb-2 pt-3">
+                        <NavLink className='humberger__open text-reset d-block text-center pb-2 pt-3'>
                             <FaListUl />
                             <span className="d-block">Menu</span>
                         </NavLink>
@@ -28,7 +30,7 @@ const MobileMenu = () => {
                         </NavLink>
                     </div>
                     <div className="col">
-                        <a href="#" class="text-reset d-block text-center pb-2 pt-3">
+                        <a href="#" className="text-reset d-block text-center pb-2 pt-3">
                             <FaBell />
                             <span className="d-block">Notification</span>
                         </a>

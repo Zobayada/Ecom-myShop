@@ -560,7 +560,7 @@ ol {
   position: relative;
 }
 
-.header__cart ul li a i {
+.header__cart ul li a .fa {
   font-size: 36px;
   color: #1c1c1c;
 }
@@ -929,7 +929,7 @@ ol {
   cursor: pointer;
 }
 
-.hero__categories__all i {
+.hero__categories__all .fa {
   font-size: 16px;
   color: #ffffff;
   margin-right: 10px;
@@ -945,7 +945,7 @@ ol {
   position: absolute;
   right: 18px;
   top: 9px;
-  content: "3";
+  content: "";
   font-family: "ElegantIcons";
   font-size: 18px;
   color: #ffffff;
@@ -3250,7 +3250,7 @@ ol {
   transform: translateX(-175px);
 }
 
-.map .map-inside i {
+.map .map-inside span {
   font-size: 48px;
   color: #dd2222;
   position: absolute;
