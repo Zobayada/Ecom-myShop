@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error"
 import Header from './component/Header';
 import Footer from './component/Footer';
-import Common from './component/Common';
 
 const App = () => {
   return (

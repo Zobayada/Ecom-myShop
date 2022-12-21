@@ -1320,7 +1320,7 @@ ol {
   border-color: #dd2222;
 }
 
-.featured__item__pic__hover li:hover a i {
+.featured__item__pic__hover li:hover a .icon {
   color: #dd2222;
   transform: rotate(360deg);
 }
@@ -1343,7 +1343,7 @@ ol {
   transition: all, 0.5s;
 }
 
-.featured__item__pic__hover li a i {
+.featured__item__pic__hover li a .icon {
   position: relative;
   transform: rotate(0);
   -webkit-transition: all, 0.3s;
