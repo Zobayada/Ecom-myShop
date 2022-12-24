@@ -1,9 +1,10 @@
 import React from 'react'
+import Common from '../component/Common'
 
 const Blog = () => {
     return (
         <div>
-            blog
+            <Common hero="hero hero-normal" />
         </div>
     )
 }

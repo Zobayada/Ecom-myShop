@@ -1,14 +1,13 @@
 import React from 'react';
 import { FaBars, FaHeart, FaShoppingBag } from "react-icons/fa";
-import Home from '../pages/Home';
 import Banner from './Banner';
 
-const Common = () => {
+const Common = (props) => {
 
 
     return (
         <>
-            <section className={`${<Home />} ? "hero" : "hero hero-normal"`}>
+            <section className={props.hero}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3">
@@ -57,7 +56,7 @@ const Common = () => {
                                 </div>
                             </div>
 
-                            {<Home /> ? <Banner /> : null}
+                            <Banner />
                         </div>
                     </div>
                 </div>

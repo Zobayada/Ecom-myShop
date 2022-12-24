@@ -1,9 +1,10 @@
 import React from 'react'
+import Common from '../component/Common'
 
 const Cart = () => {
     return (
         <div>
-            cart
+            <Common hero="hero hero-normal" />
         </div>
     )
 }

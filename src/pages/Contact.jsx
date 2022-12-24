@@ -5,10 +5,12 @@ import { SlLocationPin } from "react-icons/sl"
 import { MdLocationPin } from "react-icons/md";
 import { CiClock2 } from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi"
+import Common from '../component/Common';
 
 const Contact = () => {
     return (
         <>
+            <Common hero="hero hero-normal" />
             <BreadCrumb name="Contact Us" />
 
 

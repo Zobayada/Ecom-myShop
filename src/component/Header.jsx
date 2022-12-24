@@ -1,5 +1,4 @@
 import React from 'react'
-import Common from './Common'
 import Header_Top from './Header_Top'
 import HumbergerMenu from './HumbergerMenu'
 import MobileMenu from './MobileMenu'
@@ -14,7 +13,7 @@ const Header = () => {
             </div>
             <MobileMenu />
             <HumbergerMenu />
-            <Common />
+
         </>
     )
 }
